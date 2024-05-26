@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+h1 {
+  color: #0e2452;
+}
+ul {
+  padding-left: 0px;
+}
+.section {
+  margin: 40px 40px 0 40px;
+}
+.section-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: #000 solid 1px;
+}
+
+/*(( nâng cao */
+.date-year {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+
+.date-year::before {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 6px;
+  width: 1px;
+  height: 200px;
+}
+.date-year::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+}
+/* nâng cao )) */
+#info .section-content {
+  display: block;
+}
+
+#info .section-content-info {
+  display: inline-block;
+  position: relative;
+}
+#info .sub-info {
+  padding: 4px 0 4px 0;
+}
+
+#info .sub-info div {
+  display: inline-block;
+}
+
+#info .sub-info div:first-child {
+  width: 100px;
+  font-weight: 600;
+}
+#info .section-content-img {
+  display: inline-block;
+  height: 113px;
+  width: 113px;
+  position: absolute;
+  right: 80px;
+}
+#info .section-content-img img {
+  height: 100%;
+  width: 100%;
+}
+#target .section-content {
+  line-height: 24px;
+  font-weight: 500;
+}
+.section-content-child {
+  clear: both;
+  overflow: hidden;
+  border-bottom: #eee 1px solid;
+  margin-bottom: 4px;
+}
+#education {
+}
+#education .section-content-child > div {
+  display: inline-block;
+}
+#education .date-year {
+  float: left;
+}
+#education .description {
+  padding-left: 40px;
+  width: 70%;
+}
+#experience .section-content-child > div {
+  display: inline-block;
+}
+#experience .date-year {
+  float: left;
+}
+#experience .description {
+  padding-left: 40px;
+  width: 70%;
+}
+#experience .description li {
+  list-style-type: none;
+}
+#activity ul {
+  padding-left: 24px;
+}
+#activity li {
+  list-style: disc;
+}
+#activity .time {
+  padding-top: 4px;
+}
+#contact ol {
+  padding-left: 12px;
+}
+#contact li {
+  padding-bottom: 8px;
+}
+#contact a {
+  color: blue;
+}
