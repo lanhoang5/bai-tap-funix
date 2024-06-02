@@ -67,3 +67,6 @@
   font-size: 8px;
 }
 /* 3. Xây dựng Thông tin cá nhân */
+.persional-info {
+  display: grid;
+}
