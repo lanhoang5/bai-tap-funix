@@ -74,6 +74,33 @@
 .persional-info .career {
   background-color: #eee;
 }
+.persional-info .career > div {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.career-container h2 {
+  margin-bottom: 18px;
+  /* display: inline-block; */
+}
+.career-container p {
+  margin-right: 40px;
+}
 .persional-info .persional-info-detail {
   background-color: #ccc;
+}
+.persional-info .persional-info-detail > div {
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.persional-info-detail h2 {
+  margin-bottom: 18px;
+}
+.persional-info-detail .sub-info {
+  display: flex;
+  margin-bottom: 12px;
+}
+.persional-info-detail i {
+  margin-top: 16px;
+  margin-right: 4px;
+  color: #0079bc;
 }
