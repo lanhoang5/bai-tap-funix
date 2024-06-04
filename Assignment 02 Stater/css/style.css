@@ -69,4 +69,11 @@
 /* 3. Xây dựng Thông tin cá nhân */
 .persional-info {
   display: grid;
+  grid-template-columns: 50% 50%;
+}
+.persional-info .career {
+  background-color: #eee;
+}
+.persional-info .persional-info-detail {
+  background-color: #ccc;
 }
