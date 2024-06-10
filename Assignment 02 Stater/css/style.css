@@ -115,6 +115,7 @@
 }
 .career-info .box-info_section {
   border: solid 1px #ccc;
+  line-height: 26px;
 }
 .box-info_section > * {
   margin: 0px 40px;
