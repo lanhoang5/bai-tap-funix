@@ -157,3 +157,25 @@
 .box-info_section li {
   list-style: none;
 }
+/* 5. xây dựng phần sở thích */
+.box-info-point .icon-area {
+  width: 22%;
+  text-align: center;
+  color: #777;
+}
+
+.box-info-point .icon-area i {
+  border: solid 2px #0079bc;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  color: #0079bc;
+}
+.box-info-point .icon-area i::before {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
