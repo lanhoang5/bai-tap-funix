@@ -138,19 +138,20 @@
 
 .box-info_section .box-info-point {
   padding: 12px 0;
-  font-size: 14px;
+  font-size: 12px;
   display: flex;
 }
-.box-info_section .box-info-point .point-first-line {
+.box-info_section .box-info-point .dot-first-line {
   content: "";
-  display: block;
+  display: inline-block;
   background-color: blue;
-  height: 6px;
-  width: 6px;
-  border-radius: 50%;
-  left: -20px;
-  top: 16px;
+  height: 6px !important;
+  width: 6px !important;
+  border-radius: 100%;
   margin: 8px;
+}
+.box-info_section .box-info-point .wrap-box-info {
+  width: 90%;
 }
 
 .box-info_section li {
