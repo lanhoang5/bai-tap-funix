@@ -122,22 +122,35 @@
 }
 .box-info_section .header-box_section {
   padding: 32px 0;
+  display: flex;
 }
+.box-info_section .header-box_section h2 {
+  flex-shrink: 3;
+  margin-right: auto;
+  line-height: 48px;
+}
+.box-info_section .header-box_section i {
+  flex-shrink: 1;
+  margin-left: auto;
+  font-size: 48px;
+  color: #ccc;
+}
+
 .box-info_section .box-info-point {
   padding: 12px 0;
-  position: relative;
   font-size: 14px;
+  display: flex;
 }
-.box-info_section .box-info-point::before {
+.box-info_section .box-info-point .point-first-line {
   content: "";
   display: block;
   background-color: blue;
   height: 6px;
   width: 6px;
   border-radius: 50%;
-  position: absolute;
   left: -20px;
   top: 16px;
+  margin: 8px;
 }
 
 .box-info_section li {
