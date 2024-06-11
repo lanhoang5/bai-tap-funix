@@ -5,7 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
   /* 1. Xây dựng phần ảnh Banner */
 }
-
+.flex-direction-column {
+  flex-direction: column;
+}
 /* Xây dựng phần ảnh Banner  */
 
 .banner {
@@ -178,4 +180,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/* 5. xây dựng phần ngôn ngữ, kĩ năng */
+.box-info-point .subject .subject-point {
+  display: flex;
+  gap: 10px;
+}
+.box-info-point .subject .point {
+  display: block;
+  height: 2px;
+  width: 45px;
+  background-color: #ccc;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.box-info-point .subject .point.pointed {
+  background-color: #0079bc;
 }
