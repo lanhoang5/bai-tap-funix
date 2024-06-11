@@ -8,6 +8,14 @@
 .flex-direction-column {
   flex-direction: column;
 }
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  list-style: none;
+}
+
 /* Xây dựng phần ảnh Banner  */
 
 .banner {
@@ -110,7 +118,7 @@
 /* 4. Xây dựng phần Thông tin nghề nghiệp */
 .career-info {
   display: grid;
-  grid-template-columns: repeat(3, 22%);
+  grid-template-columns: repeat(3, 400px);
   justify-content: center;
   gap: 10px;
   padding: 10px;
@@ -181,7 +189,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* 5. xây dựng phần ngôn ngữ, kĩ năng */
+/* 6. xây dựng phần ngôn ngữ, kĩ năng */
 .box-info-point .subject .subject-point {
   display: flex;
   gap: 10px;
@@ -196,4 +204,19 @@
 }
 .box-info-point .subject .point.pointed {
   background-color: #0079bc;
+}
+/* 7. xây dựng phần chứng chỉ , giải thưởng */
+.certification {
+  margin: auto;
+}
+.certification-list-flex-row {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+}
+.certification-wrap {
+  display: flex;
+}
+.certification-wrap img {
+  width: 100%;
 }
