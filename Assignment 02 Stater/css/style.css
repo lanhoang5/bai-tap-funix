@@ -207,8 +207,16 @@ li {
 }
 /* 7. xây dựng phần chứng chỉ , giải thưởng */
 .certification {
+  background-color: #eee;
+  margin: 24px 0;
+}
+.certification-background {
   margin: auto;
   width: 1220px;
+}
+.certification h2 {
+  padding: 36px 0;
+  font-size: 32px;
 }
 .certification-list-flex-row {
   display: flex;
