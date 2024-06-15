@@ -210,6 +210,9 @@ li {
   background-color: #eee;
   margin: 24px 0;
 }
+.certification-list {
+  position: relative;
+}
 .certification-background {
   margin: auto;
   width: 1220px;
@@ -222,11 +225,36 @@ li {
   display: flex;
 
   justify-content: space-between;
+  position: relative;
+  margin-bottom: 96px;
 }
 .certification-wrap {
   display: flex;
   height: 100px;
+  flex-basis: 590px;
 }
 .certification-wrap img {
   height: 100%;
+}
+.certification-wrap .certification-detail {
+  padding-left: 24px;
+  line-height: 36px;
+  font-size: 14px;
+}
+.line-separate-vertical {
+  border-left: solid 1px #d6c08d;
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.line-separate-horizontal {
+  border-top: solid 1px #d6c08d;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
 }
