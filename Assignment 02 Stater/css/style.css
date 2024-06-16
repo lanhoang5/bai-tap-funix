@@ -258,3 +258,17 @@ li {
 
   transform: translate(-50%, -50%);
 }
+
+/* 8. xây dựng phần dự án */
+.project {
+}
+.project-container {
+  width: 1220px;
+  margin: auto;
+}
+.project-section {
+  width: 400px;
+}
+.project-section img {
+  width: 100%;
+}
