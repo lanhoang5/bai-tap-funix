@@ -19,9 +19,9 @@ li {
 /* Xây dựng phần ảnh Banner  */
 
 .banner {
-  position: relative;
 }
 .banner-img {
+  position: relative;
   width: 100%;
   filter: grayscale(50%);
 }
@@ -69,22 +69,10 @@ li {
   padding: 0px 150px;
   font-size: 24px;
   text-align: center;
-  position: relative;
 }
 .navbar .fullname i {
   font-size: 13px;
 }
-/* 10 nâng cao */
-.fullname img {
-  border-radius: 50%;
-  width: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 5px solid #fff;
-}
-
 /* 3. Xây dựng Thông tin cá nhân */
 .persional-info {
   display: grid;
