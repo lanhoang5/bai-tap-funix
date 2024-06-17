@@ -317,3 +317,28 @@ li {
 .project-section-child-content .project-detail p {
   flex-basis: 300px;
 }
+/* 9. Xây dựng phần Liên hệ */
+.footer {
+  background-color: #eee;
+  margin-top: 48px;
+}
+.footer .contact {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.contact > div {
+  font-size: 16px;
+  color: #aaa;
+  line-height: 30px;
+  margin-right: 100px;
+  position: relative;
+}
+.contact i {
+  font-size: 30px;
+  line-height: 30px;
+  /* padding-right: 16px; */
+  position: absolute;
+  left: -40px;
+  color: #0079bc;
+}
