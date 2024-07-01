@@ -1,0 +1,18 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://www.50mm.vn/wp-content/uploads/2017/11/windows_xp_bliss-wide.jpg);
+  width: 100%;
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://file.hstatic.net/200000722513/article/gearvn_-hinh-nen-windows-10_-12_4df5131dcf6e4d8e87acf6d9c8c488d0_master.jpg);
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(https://www.50mm.vn/wp-content/uploads/2017/11/windows_xp_bliss-wide.jpg);
+}
