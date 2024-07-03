@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var massMark = 78, massJohn = 92, heightMark = 1.69, heightJohn = 1.95
+        var BMIMark = massMark / (heightMark * heightMark);
+        var BMIJohn = massJohn / (heightJohn * heightJohn);
+        var markHigherBMI = BMIMark > BMIJohn
+
+        // Lab 15.6.2. So sánh chỉ số BMI (phần 2)
+        if (markHigherBMI) { console.log("Mark's BMI is higher than John's!") } else { console.log("John's BMI is higher than Mark's!") }
+        //2
+        if (markHigherBMI) { console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`) } else { console.log(`John's BMI (${BMIMark}) is higher than Mark's (${BMIJohn})!`) }
+
+
+    </script>
+</body>
+
+</html>
