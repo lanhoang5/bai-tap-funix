@@ -9,26 +9,88 @@
 
 <body>
     <script>
-        var scoreDolphins1 = 90;
-        var scoreDolphins2 = 90;
-        var scoreDolphins3 = 90;
-        var scoreKoalas1 = 80;
-        var scoreKoalas2 = 80;
-        var scoreKoalas3 = 80;
+        // Lab 16.6.1. Đội nào chiến thắng? (phần 1)
+        // du lieu 1
+        var scoreDolphins1 = 96;
+        var scoreDolphins2 = 108;
+        var scoreDolphins3 = 89;
+        var scoreKoalas1 = 88;
+        var scoreKoalas2 = 91;
+        var scoreKoalas3 = 110;
         var sumDolphins = scoreDolphins1 + scoreDolphins2 + scoreDolphins3;
         var sumKoalas = scoreKoalas1 + scoreKoalas2 + scoreKoalas3
         var averangeDolphins = sumDolphins / 3
         var averangeKoalas = sumKoalas / 3
-        switch (sumDolphins > sumKoalas) {
-            case 
-            break;
-            default
-        }
-        //tối thiểu 100
         //cao hơn đội khác
-        // không đạt tối thiểu thì không thắng
-
-
+        if (sumDolphins < sumKoalas) {
+            console.log('Koalas win')
+        } else if (sumDolphins > sumKoalas) {
+            console.log('Dolphins win')
+        } else {
+            console.log("fair")
+        }
+        // bonus 1
+        var scoreDolphins1 = 96;
+        var scoreDolphins2 = 108;
+        var scoreDolphins3 = 89;
+        var scoreKoalas1 = 88;
+        var scoreKoalas2 = 91;
+        var scoreKoalas3 = 110;
+        var sumDolphins = scoreDolphins1 + scoreDolphins2 + scoreDolphins3;
+        var sumKoalas = scoreKoalas1 + scoreKoalas2 + scoreKoalas3
+        var averangeDolphins = sumDolphins / 3
+        var averangeKoalas = sumKoalas / 3
+        //tối thiểu 100
+        if (sumDolphins < 100) {
+            sumDolphins = 100
+        }
+        if (sumKoalas < 100) {
+            sumKoalas = 100
+        }
+        //cao hơn đội khác
+        if (sumDolphins < sumKoalas) {
+            console.log('Koalas win')
+        } else if (sumDolphins > sumKoalas) {
+            console.log('Dolphins win')
+        } else {
+            console.log("fair")
+        }
+        //bonus 2
+        var scoreDolphins1 = 96;
+        var scoreDolphins2 = 108;
+        var scoreDolphins3 = 89;
+        var scoreKoalas1 = 88;
+        var scoreKoalas2 = 91;
+        var scoreKoalas3 = 110;
+        var sumDolphins = scoreDolphins1 + scoreDolphins2 + scoreDolphins3;
+        var sumKoalas = scoreKoalas1 + scoreKoalas2 + scoreKoalas3
+        var averangeDolphins = sumDolphins / 3
+        var averangeKoalas = sumKoalas / 3
+        //<100 khong doi nao thang ca
+        if (sumDolphins < 100) {
+            sumDolphins = 0
+        }
+        if (sumKoalas < 100) {
+            sumKoalas = 0
+        }
+        if (sumDolphins == 0 && sumKoalas == 0) {
+            console.log('No team win')
+        }
+        //cao hơn đội khác
+        if (sumDolphins < sumKoalas) {
+            console.log('Koalas win')
+        } else if (sumDolphins > sumKoalas) {
+            console.log('Dolphins win')
+        } else {
+            console.log("fair")
+        }
+    </script>
+    <script>
+        // Lab 16.6.2. Tip calculator (phần 1)
+        var bill = 301;
+        var tip = bill >= 50 && bill <= 300 ? bill * 15 / 100 : bill * 20 / 100;
+        console.log(tip)
+        console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
     </script>
 </body>
 
