@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Lab 17.7.1. Đội nào chiến thắng? (phần 2)
+        //du lieu 1
+        var dolphins = [44, 23, 71]
+        var koalas = [65, 54, 49]
+        const calcAverage = (sumy) => {
+            return (sumy[0] + sumy[1] + sumy[2]) / 3
+        }
+        //điểm trung bình ít nhất là gấp đôi so với đội còn lại 
+        const checkWinner = (avgDolphins, avgKoalas) => {
+            var avgDolphins = calcAverage(dolphins)
+            var avgKoalas = calcAverage(koalas)
+
+            if (avgDolphins >= avgKoalas * 2) {
+                console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`)
+            } else if (avgKoalas >= avgDolphins * 2) {
+                console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`)
+            }
+        }
+        console.log('du lieu 1')
+        checkWinner(dolphins, koalas)
+        //du lieu 2
+
+        var dolphins = [85, 54, 41]
+        var koalas = [23, 34, 27]
+        console.log("du lieu 2")
+        checkWinner(dolphins, koalas)
+    </script>
+    <script>
+        // Lab 17.7.2. Xây dựng Tip calculator (phần 2)
+        var bills = [125, 555, 44];
+        const calcTip = (bill) => {
+            var tip = bill >= 50 && bill <= 300 ? bill * 15 / 100 : bill * 20 / 100;
+            return tip
+        }
+        var tips = []
+        for (var i = 0; i < bills.length; i++) {
+
+            tips[i] = calcTip(bills[i])
+        }
+        console.log(tips)
+    </script>
+</body>
+
+</html>

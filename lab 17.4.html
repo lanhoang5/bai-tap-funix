@@ -8,7 +8,25 @@
 </head>
 
 <body>
+    <script>
+        var vietnamPop = 100000000
+        var chinaPop = 1425493416
+        var usaPop = 341830142
 
+        function percentageOfWorld1(population) {
+            return (population / 7900) * 100;
+
+
+        }
+        function describePopulation(country, population) {
+
+            console.log(`${country} has ${population} million people, which is about ${percentageOfWorld1(population)}% of the world`)
+        }
+        describePopulation("Việt Nam", vietnamPop)
+        describePopulation("Trung Quốc", chinaPop)
+        describePopulation("Mỹ", usaPop)
+
+    </script>
 </body>
 
 </html>

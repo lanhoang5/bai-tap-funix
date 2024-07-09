@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']]
+        //nếu ít nhất 2 , in ra từ thứ 2 trở đi 
+        for (var i = 0; i < listOfNeighbours.length; i++) {
+
+            if (listOfNeighbours[i].length >= 2) {
+                for (var j = 1; j < listOfNeighbours[i].length; j++) {
+                    console.log(listOfNeighbours[i][j])
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

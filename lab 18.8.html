@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Lab 18.8.1. So sánh chỉ số IBM (phần 3)
+        var markMiller = {
+            fullname: 'Mark Miller',
+            mass: '79',
+            height: '1.69',
+            BMI: function calcBMI() {
+                this.BMI = this.mass / (this.height * this.height);
+                return this.BMI;
+            }
+        }
+        var johnSmith = {
+            fullname: 'John Smith',
+            mass: '92',
+            height: '1.95',
+
+            BMI: function calcBMI() {
+                this.BMI = this.mass / (this.height * this.height);
+                return this.BMI;
+            }
+
+
+        }
+        console.log(johnSmith.BMI())
+    </script>
+    <script>
+        //Lab 18.8.2. Cải thiện Tip calculator
+        var bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+        const calcTip = (bill) => {
+            var tip = bill >= 50 && bill <= 300 ? bill * 15 / 100 : bill * 20 / 100;
+            return tip
+        }
+        var tips = []
+        var totals = []
+        for (var i = 0; i < bills.length; i++) {
+
+            tips[i] = calcTip(bills[i])
+            totals[i] = tips[i] + bills[i]
+        }
+        console.log(totals)
+        function calcAverage(arr) {
+            let sum = 0;
+            for (var i = 0; i < arr.length; i++) {
+                sum += arr[i]
+            }
+            return sum / arr.length
+        }
+        console.log(calcAverage(totals))
+    </script>
+</body>
+
+</html>
