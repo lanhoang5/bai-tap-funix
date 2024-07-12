@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+  body {
+    /* background-color: blue; */
+  }
+
+  /* 3. phần navbar */
+  /*  */
+  .fullname {
+    padding: 16px 32px !important;
+  }
+  .fullname img {
+    display: none;
+  }
+  /* 4. phần thông tin cá nhân */
+  .container {
+    /* padding: 0 !important; */
+    /* margin: 0 !important; */
+    /* width: 100%; */
+  }
+  .persional-info {
+    /* width: 100%; */
+  }
+  /* 5. Phần Thông tin nghề nghiệp */
+  .career-info {
+    grid-template-columns: repeat(2, auto);
+  }
+  /* 6. Phần Chứng chỉ - Giải thưởng */
+  .certification-wrap {
+    flex-direction: column !important;
+  }
+  .certification-wrap img {
+    width: 100%;
+  }
+  .certification-detail {
+    padding: 0 !important;
+  }
+  .certification-detail ul {
+    padding-left: 0;
+  }
+  /* 7. Phần dự án */
+}
